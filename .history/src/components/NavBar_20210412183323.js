@@ -44,6 +44,12 @@ const NavBar = () => {
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar_container">
+          <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
+            <i
+              class={`fas fa-running ${navbarLink ? "running-icon" : " "}`}
+            ></i>
+          </Link>
+
           <div className="navbar_menu-icon" onClick={handleClick}>
             <i className={hambClass()} />
           </div>
@@ -54,7 +60,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                About Me
+                Race Challenge
               </Link>
             </li>
             <li className="navbar_item">
@@ -63,7 +69,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                Projects
+                Activities
               </Link>
             </li>
             <li className="navbar_item">
@@ -72,7 +78,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                Get In Touch
+                Challenges
               </Link>
             </li>
 
@@ -84,4 +90,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;

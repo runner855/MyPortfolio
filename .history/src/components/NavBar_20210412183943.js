@@ -54,7 +54,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                About Me
+                Race Challenge
               </Link>
             </li>
             <li className="navbar_item">
@@ -63,7 +63,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                Projects
+                Activities
               </Link>
             </li>
             <li className="navbar_item">
@@ -72,7 +72,7 @@ const NavBar = () => {
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
-                Get In Touch
+                Challenges
               </Link>
             </li>
 
