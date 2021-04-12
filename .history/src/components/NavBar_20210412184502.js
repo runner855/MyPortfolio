@@ -59,7 +59,7 @@ const NavBar = () => {
             </li>
             <li className="navbar_item">
               <Link
-                to="/projects"
+                to="/about me"
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
@@ -68,7 +68,7 @@ const NavBar = () => {
             </li>
             <li className="navbar_item">
               <Link
-                to="/get in touch"
+                to="/projects"
                 className={navbarLink ? "navbarLink active" : "navbarLink"}
                 onClick={closeMobileMenu}
               >
